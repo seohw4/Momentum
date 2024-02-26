@@ -11,6 +11,7 @@ function loginSubmit(event) {
   localStorage.setItem("username", username);
   greeting.innerText = `Hello ${username}`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
+  console.log("test");
 }
 
 loginForm.addEventListener("submit", loginSubmit);
