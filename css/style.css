@@ -1,3 +1,130 @@
 .hidden {
   display: none;
 }
+
+body {
+  margin: 0;
+}
+
+.container {
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main {
+  padding: 2rem;
+  width: 50%;
+  height: 70%;
+}
+
+.input {
+  background: none;
+  border: none;
+  width: 100%;
+  padding: 5px 7px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  font-size: large;
+}
+
+.input:focus {
+  outline: none;
+  border-bottom: 2px solid;
+}
+
+#button {
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px 25px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: rgba(132, 147, 215, 0.383);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+#button:hover {
+  background: rgba(132, 147, 215, 0.687);
+}
+
+#clock {
+  text-align: center;
+  font-size: 80px;
+  margin: 20px;
+  color: rgba(255, 255, 255, 0.724);
+}
+
+#greeting {
+  margin: 0;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.948);
+  font-size: 40px;
+}
+
+#todo-form {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.todo-input {
+  border: none;
+  background: none;
+  width: 80%;
+  box-sizing: border-box;
+  font-size: 20px;
+  border-bottom: 2px solid;
+  color: rgba(255, 255, 255, 0.724);
+}
+
+.todo-input:focus {
+  outline: none;
+}
+
+.todo-input::placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.724);
+  opacity: 0.5;
+}
+
+.todo {
+  display: flex;
+  justify-content: center;
+}
+
+#todo-list {
+  list-style-type: none;
+  width: 50%;
+  padding: 0;
+}
+
+#todo-list li {
+  display: flex;
+  margin: 20px 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+li span {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.843);
+}
+
+li button {
+}
+
+#quote {
+  text-align: center;
+  margin-top: 9rem;
+  font-weight: bolder;
+  color: rgba(255, 255, 255, 0.724);
+}
+#quote span {
+  display: block;
+}
