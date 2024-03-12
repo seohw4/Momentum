@@ -21,18 +21,28 @@ body {
 }
 
 .input {
+  align-items: center;
   background: none;
   border: none;
-  width: 100%;
+  width: 50%;
   padding: 5px 7px;
   margin-bottom: 10px;
+  margin-left: 11rem;
   box-sizing: border-box;
-  font-size: large;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.724);
 }
 
 .input:focus {
   outline: none;
+
   border-bottom: 2px solid;
+}
+
+input::placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.724);
+  opacity: 0.5;
 }
 
 #button {
@@ -64,7 +74,7 @@ body {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 20px;
-  color: rgba(255, 255, 255, 0.948);
+  color: rgba(255, 255, 255, 0.809);
   font-size: 40px;
 }
 
@@ -112,7 +122,7 @@ body {
 }
 
 li span {
-  font-size: 15px;
+  font-size: 20px;
   color: rgba(255, 255, 255, 0.843);
 }
 
@@ -121,7 +131,7 @@ li button {
 
 #quote {
   text-align: center;
-  margin-top: 9rem;
+  margin-top: 5rem;
   font-weight: bolder;
   color: rgba(255, 255, 255, 0.724);
 }
