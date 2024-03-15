@@ -122,19 +122,43 @@ input::placeholder {
 }
 
 li span {
-  font-size: 20px;
+  font-size: 15px;
   color: rgba(255, 255, 255, 0.843);
 }
 
 li button {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin-left: 1rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: rgba(132, 147, 215, 0.383);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+li button:hover {
+  background: rgba(132, 147, 215, 0.816);
 }
 
 #quote {
   text-align: center;
   margin-top: 5rem;
   font-weight: bolder;
-  color: rgba(255, 255, 255, 0.724);
+  color: rgba(255, 255, 255, 0.71);
 }
 #quote span {
+  display: block;
+}
+
+#weather {
+  text-align: right;
+  margin-bottom: 3rem;
+  color: rgba(255, 255, 255, 0.71);
+}
+
+#weather span {
   display: block;
 }
